@@ -29,3 +29,5 @@ end
 def selects_bear_that_killed_Tim
   "Write your SQL query here"
 end
+
+SELECT breed, owner_id, COUNT(breed) FROM cats GROUP BY breed, owner_id;
