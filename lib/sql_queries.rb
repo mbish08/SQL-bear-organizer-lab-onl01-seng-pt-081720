@@ -29,5 +29,3 @@ end
 def selects_bear_that_killed_Tim
   "SELECT * FROM bears WHERE name = 'nil' "
 end
-
-# SELECT breed, owner_id, COUNT(breed) FROM cats GROUP BY breed, owner_id;
